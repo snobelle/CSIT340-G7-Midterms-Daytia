@@ -42,7 +42,6 @@ function App() {
     <NavBar />
     <Profile 
     followers={followers}
-    repos={repos}
     rate={rate}
      />
     <Repositories 
