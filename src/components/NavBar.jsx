@@ -1,6 +1,5 @@
 function NavBar() {
   return (
-    <div className="flex min-h-screen flex-col bg-[#FAF3E1] text-[#222222]">
       <nav className="flex items-center justify-between bg-[#222222] px-20 py-6 text-[#FAF3E1]">
         <h1 className="text-3xl font-bold">DevHub</h1>
         <ul className="flex gap-10 text-xl">
@@ -9,7 +8,6 @@ function NavBar() {
           <li>Settings</li>
         </ul>
       </nav>
-</div>
   );
 }
 

@@ -43,6 +43,9 @@ function App() {
     <Profile 
     followers={followers}
     rate={rate}
+    onFollow={handleFollow}
+    onAddRate={handleAddRate}
+    onReset={handleReset}
      />
     <Repositories 
     portfolioStars={portfolioStars}
